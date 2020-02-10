@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
+    <link rel="shortcut icon" href="./img/logo3.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./css/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600i,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>myDiplom</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    MY-BEETROOT
+                    <img src="./img/logo3.png" alt="logotype">
+                </div>
+                <div class="head__list-menu">
+                    <div class="head__list">
+                        <a href="index.html" class="head__list--link active" id="home-page">Home</a>
+                        <a href="#" class="head__list--link">About</a>
+                        <a href="#" class="head__list--link">Services</a>
+                        <a href="#" class="head__list--link" id="js-list-link">
+                        <i class="fas fa-chevron-down"></i>
+                        Portfolio
+                        </a>
+                        <ul class="head__list--link-item" id="sort-filter">
+                            <li data-filter="all"><a class="filter-link" href="#">All rest</a></li>
+                            <li data-filter="mountains"><a class="filter-link" href="#">Rest in mountains</a></li>
+                            <li data-filter="ocean"><a class="filter-link" href="#">Rest on ocean</a></li>
+                            <li data-filter="bPlaces"><a class="filter-link" href="#">Beautiful places</a></li>
+                        </ul>
+                        <a href="#" class="head__list--link">Blog</a>
+                        <a href="#" class="head__list--link">Features</a>
+                        <a href="contact.html" class="head__list--link">Contacts</a>
+                        <a href="#" class="head__list--link">
+                        <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <div id="mobileMenu">
+                        <a class="menu_btn js-menu_btn" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider-block" id="sort-items">
+        <div class="slide filter-mountains" style="background-image: url('./img/mountain1.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-mountains" style="background-image: url('./img/mountain2.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-mountains" style="background-image: url('./img/mountain3.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-mountains" style="background-image: url('./img/mountain4.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+
+        <div class="slide filter-ocean" style="background-image: url('./img/ocean1.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-ocean" style="background-image: url('./img/ocean2.jpeg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-ocean" style="background-image: url('./img/ocean3.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-ocean" style="background-image: url('./img/ocean4.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+
+        <div class="slide filter-bPlaces" style="background-image: url('./img/place1.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-bPlaces" style="background-image: url('./img/place2.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-bPlaces" style="background-image: url('./img/place3.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+        <div class="slide filter-bPlaces" style="background-image: url('./img/place4.jpg');">
+            <h2 class="slide--text">We love active weekends</h2>
+        </div>
+    </div>
+
+    <div class="view-more">
+        <div class="container">
+
+            <div class="our-service" id="block-btn">
+                <div class="our-service__text">
+                    <p class="our-service__text-bold">Some of our top services</p>
+                    <p class="our-service__text-mini">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                </div>
+                <div class="our-service__button">
+                    <a class="link" href="#">
+                        <div class="our-service__button--btn">Open</div>
+                        <div class="our-service__button--text">View more</div>
+                        <div class="our-service__button--btn-img"><img src="./img/sync-alt-solid.svg"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="our-service__blocks">
+
+                <div class="our-service__blocks-box">
+                    <div class="our-service__blocks-box-icon">
+                        <i class="far fa-thumbs-up"></i>
+                    </div>
+                    <div class="our-service__blocks-box-h2">SUSPENDISSE</div>
+                    <div class="our-service__blocks-box-p">
+                        Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.
+                    </div>
+                    <button class="our-service__blocks-box-button">read more</button>
+                </div>
+
+                <div class="our-service__blocks-box">
+                    <div class="our-service__blocks-box-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="our-service__blocks-box-h2">MAECENAS</div>
+                    <div class="our-service__blocks-box-p">
+                        Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.
+                    </div>
+                    <button class="our-service__blocks-box-button">read more</button>
+                </div>
+
+                <div class="our-service__blocks-box">
+                    <div class="our-service__blocks-box-icon">
+                        <i class="fab fa-font-awesome-flag"></i>
+                    </div>
+                    <div class="our-service__blocks-box-h2">ALIQUAM</div>
+                    <div class="our-service__blocks-box-p">
+                        Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.
+                    </div>
+                    <button class="our-service__blocks-box-button">read more</button>
+                </div>
+
+                <div class="our-service__blocks-box">
+                    <div class="our-service__blocks-box-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="our-service__blocks-box-h2">HABITASSE </div>
+                    <div class="our-service__blocks-box-p">
+                        Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.
+                    </div>
+                    <button class="our-service__blocks-box-button">read more</button>
+                </div>
+
+                <div class="our-service__block-none">
+                    <div class="our-service__blocks-box">
+                        <div class="our-service__blocks-box-icon">
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div class="our-service__blocks-box-h2">SUSPENDISSE</div>
+                        <div class="our-service__blocks-box-p">
+                            Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.
+                        </div>
+                        <button class="our-service__blocks-box-button">read more</button>
+                    </div>
+
+                    <div class="our-service__blocks-box">
+                        <div class="our-service__blocks-box-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="our-service__blocks-box-h2">MAECENAS</div>
+                        <div class="our-service__blocks-box-p">
+                            Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.
+                        </div>
+                        <button class="our-service__blocks-box-button">read more</button>
+                    </div>
+
+                    <div class="our-service__blocks-box">
+                        <div class="our-service__blocks-box-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="our-service__blocks-box-h2">MAECENAS</div>
+                        <div class="our-service__blocks-box-p">
+                            Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.
+                        </div>
+                        <button class="our-service__blocks-box-button">read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="my-button">
+            <div class="pulse">
+                <div class="pulse__phone">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="pulse__text">Call me</div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="my-form">
+            <form class="form-box">
+                <input type="submit" class="form-box__close" value="X">
+                <div class="form-box__input">
+                    <label class="form-box__input-label">Your phone:</label>
+                    <input type="phone" class="form-box__input-text" required pattern="\d+" >
+                </div>
+                <div class="form-box__input">
+                    <label class="form-box__input-label">Your name:</label>
+                    <input type="text" class="form-box__input-text" required>
+                </div>
+                <input type="submit" value="Send" class="form-box__btn">
+            </form>
+        </div>
+    </section>
+
+
+    <div class="study">
+        <div class="container">
+            <div class="study-school">
+                <div class="study-school--head">Why Beetroot academy?</div>
+                <div class="study-school--p">
+                    Capacitance cascading integer reflective interface data development high bus cache dithering transponder.
+                </div>
+            </div>
+            <div class="study-position">
+                <div class="study-position-junior">
+                    <div class="study-position-junior--img">
+                        <img class="study-position-junior--img-pos" src="./img/front-end.jpg" alt="front-end">
+                        <button class="study-position-junior--button">Details...</button>
+                    </div>
+                </div>
+                <div class="study-position-junior">
+                    <div class="study-position-junior--img">
+                        <img class="study-position-junior--img-pos" src="./img/Back-end.jpg" alt="back-end">
+                        <button class="study-position-junior--button">Details...</button>
+                    </div>
+                </div>
+                <div class="study-position-junior">
+                    <div class="study-position-junior--img">
+                        <img class="study-position-junior--img-pos" src="./img/ui design.png" alt="UI-design">
+                        <button class="study-position-junior--button">Details...</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="block-circle-progress">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle" stroke-dasharray="{{progressValue}}, 70" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <path class="check"  text-anchor="middle" d="m26.967692,14.493525q0,0.422018 -0.295412,0.71743l-7.638523,7.638523l-1.434861,1.434861q-0.295412,0.295412 -0.71743,0.295412t-0.71743,-0.295412l-1.434861,-1.434861l-3.819261,-3.819261q-0.295412,-0.295412 -0.295412,-0.71743t0.295412,-0.71743l1.434861,-1.434861q0.295412,-0.295412 0.71743,-0.295412t0.71743,0.295412l3.101831,3.112382l6.921093,-6.931643q0.295412,-0.295412 0.71743,-0.295412t0.71743,0.295412l1.434861,1.434861q0.295412,0.295412 0.295412,0.71743z" />
+                  <text class="text" x="50%" y="58%" text-anchor="middle">70%</text>
+                </svg>
+              </div> -->
+              
+
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews-customer">
+                <div class="reviews-customer__choose">
+                    <h2>Why Choose Us?</h2>
+                    <ul>
+                        <li>Quisque at massa ipsum</li>
+                        <li>Maecenas a lorem augue, egestas</li>
+                        <li>Cras vitae felis at lacus eleifend</li>
+                        <li>Etiam auctor diam pellentesque</li>
+                        <li>Nulla ac massa at dolor</li>
+                        <li>Condimentum eleifend vitae vitae</li>
+                    </ul>
+                </div>
+                <div class="reviews-customer__test">
+                    <p>
+                        Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <a href="#">vehicula mattis.</a> Nulla ac massa at dolor condimentum eleifend vitae vitae urna.
+                    </p>
+                    <div class="reviews-customer__test--animate" id="animate-preview">
+                        <div class="reviews-customer__test--animate-progress-bar js-progress-bar">
+
+                        </div>
+                        <div class="reviews-customer__test--animate-progress-bar js-progress-bar1">
+
+                        </div>
+                        <div class="reviews-customer__test--animate-progress-bar js-progress-bar2">
+
+                        </div>
+                        <div class="reviews-customer__test--animate-progress-bar js-progress-bar3">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-customer__client-say">
+                    <div class="reviews-customer__client-say-h2">What Client's Say</div>
+                    <div class="reviews-customer__client-say-p">
+                        Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. Nulla ac massa at dolor condimentum
+                    </div>
+                    <div class="reviews-customer__client-say-who">
+                        Jhon Doe
+                    </div>
+                </div>
+            </div>
+            <div class="our-base">
+                <div class="our-base__happy-clients">Learn with us</div>
+                <div class="our-base__line">
+                    <div class="our-base__line-block" id="block"></div>
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="./img/kotlin.png" alt="kotlin-logo">
+                <img class="slider__img" src="./img/block-jquery.png" alt="jQuery-logo">
+                <img class="slider__img" src="./img/php.jpeg" alt="php-logo">
+                <img class="slider__img" src="./img/pyton.jpg" alt="pyton-logo">
+                <img class="slider__img" src="./img/apple-swift.jpg" alt="swift-logo">
+                <img class="slider__img" src="./img/c++.jpeg" alt="C++logo">
+                <img class="slider__img" src="./img/html.png" alt="html-logo">
+                <img class="slider__img" src="./img/java.png" alt="java-logo">
+                <img class="slider__img" src="./img/js.jpeg" alt="js-logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="pre-footer">
+        <div class="container">
+            <div class="foo">
+                <div class="foo-blocks">
+                    <div class="foo-blocks__logo">
+                        MY-BEETROOT
+                        <img src="./img/logo3.png" alt="logotype">
+                    </div>
+                    <div class="foo-blocks__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.
+                    </div>
+                    <div class="foo-blocks__phone">Phone: 182 2569 5896</div>
+                    <div class="foo-blocks__email">e-mail: info@beetroot.academy</div>
+                </div>
+                <div class="foo-blocks">
+                    <div class="foo-blocks__podhead">Company</div>
+                    <ul>
+                        <li class="foo-blocks__item-list">About</li>
+                        <li class="foo-blocks__item-list">FAQ</li>
+                        <li class="foo-blocks__item-list">Contact</li>
+                        <li class="foo-blocks__item-list">Terms</li>
+                        <li class="foo-blocks__item-list">Privacy</li>
+                        <li class="foo-blocks__item-list">Testimonials</li>
+                    </ul>
+                </div>
+                <div class="foo-blocks">
+                    <div class="foo-blocks__podhead">Community</div>
+                    <ul>
+                        <li class="foo-blocks__item-list">Blog</li>
+                        <li class="foo-blocks__item-list">Forum</li>
+                        <li class="foo-blocks__item-list">Support</li>
+                        <li class="foo-blocks__item-list">Newsletter</li>
+                    </ul>
+                </div>
+                <div class="foo-blocks">
+                    <div class="foo-blocks__from">
+                        <span class="text-italic">from the </span> BLOG
+                    </div>
+                    <div class="foo-blocks__image">
+                        <div class="foo-blocks__image-pasportu">
+                            <img src="./img/img-none.png" alt="image">
+                        </div>
+
+                        <div class="foo-blocks__image-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            <div class="foo-blocks__image-text-date">26 May, 2019</div>
+                        </div>
+                    </div>
+                    <div class="foo-blocks__image">
+                        <div class="foo-blocks__image-pasportu">
+                            <img src="./img/img-none.png" alt="image">
+                        </div>
+
+                        <div class="foo-blocks__image-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            <div class="foo-blocks__image-text-date">26 May, 2019</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="end">
+        <div class="container">
+            <div class="end-footer">
+                <div class="end-footer__logo">
+                    2020 MY-BEETROOT
+                    <img src="./img/logo3.png" alt="logotype">
+                </div>
+                <div class="end-footer__social">
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-tumblr"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/plugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://js.cx/libs/animate.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
